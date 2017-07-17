@@ -41,6 +41,7 @@
                     </div>
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
+                            <asp:LinkButton ID="LinkButton1" PostBackUrl="~/Account/RecuperacionPassword.aspx" runat="server">¿Olvidaste la contraseña?</asp:LinkButton>
                             <asp:Button runat="server" OnClick="LogIn" Text="Iniciar sesión" CssClass="btn btn-default" />
                         </div>
                     </div>
